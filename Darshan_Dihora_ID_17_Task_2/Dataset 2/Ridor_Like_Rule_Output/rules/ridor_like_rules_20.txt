@@ -1,0 +1,4 @@
+Class 23:
+  IF Protocol Type > 0.7898 AND Max <= 0.0243 AND IAT > 0.4991 AND IAT <= 0.5488 THEN class (1/1)
+  IF Protocol Type > 0.7898 AND Max > 0.0243 AND IAT <= 0.4991 AND Radius <= 0.0021 THEN class (1/1)
+  IF Protocol Type > 0.7898 AND Max > 0.0243 AND IAT > 0.4991 THEN class (1/1)

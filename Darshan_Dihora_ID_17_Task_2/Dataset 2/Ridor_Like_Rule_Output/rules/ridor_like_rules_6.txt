@@ -1,0 +1,2 @@
+Class 9:
+  IF fin_flag_number > 0.5000 THEN class (1/1)

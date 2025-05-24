@@ -1,0 +1,2 @@
+Class 15:
+  IF Tot sum > 0.1271 AND Protocol Type > 0.2836 AND Weight <= 0.7885 THEN class (1/1)

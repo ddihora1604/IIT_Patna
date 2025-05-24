@@ -1,0 +1,4 @@
+Class 24:
+  IF Protocol Type > 0.5308 AND Max <= 0.0243 AND IAT <= 0.4991 THEN class (1/1)
+  IF Protocol Type > 0.5308 AND Max <= 0.0243 AND IAT > 0.4991 AND IAT > 0.5488 THEN class (1/1)
+  IF Protocol Type > 0.5308 AND Max > 0.0243 AND IAT <= 0.4991 AND Weight > 0.5274 THEN class (1/1)

@@ -1,0 +1,2 @@
+Class 27:
+  IF flow_duration > 0.0242 AND flow_duration > 0.0453 THEN class (1/1)

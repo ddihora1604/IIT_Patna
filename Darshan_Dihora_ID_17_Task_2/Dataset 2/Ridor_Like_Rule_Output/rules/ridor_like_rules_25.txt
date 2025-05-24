@@ -1,0 +1,4 @@
+Class 29:
+  IF Number <= 0.9000 AND Tot sum <= 0.0044 AND Srate > 0.0001 THEN class (1/1)
+  IF Number > 0.9000 AND IAT <= 0.9929 AND IAT <= 0.9927 THEN class (1/1)
+  IF Number > 0.9000 AND IAT <= 0.9929 AND IAT > 0.9927 AND flow_duration <= 0.0000 THEN class (0/1)

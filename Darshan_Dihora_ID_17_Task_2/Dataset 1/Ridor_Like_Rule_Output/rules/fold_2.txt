@@ -1,0 +1,19 @@
+Class 0.0:
+  IF GPA <= 3.5010 AND StudentID <= 3136.1942 AND ParentalSupport > 3.3096 AND ParentalSupport <= 3.3515 THEN class (1/1)
+  IF GPA <= 3.5010 AND StudentID > 3136.1942 AND Age > 16.7309 AND Ethnicity <= 0.9873 THEN class (0/1)
+  IF GPA > 3.5010 AND StudentID <= 3240.4172 THEN class (1/1)
+
+Class 1.0:
+  IF GPA <= 3.0159 AND StudentID > 3213.5000 AND Volunteering <= 0.0455 AND StudyTimeWeekly > 5.5530 THEN class (0/1)
+  IF GPA > 3.0159 AND GPA <= 3.5010 AND StudentID <= 2896.1687 THEN class (1/1)
+  IF GPA > 3.0159 AND GPA <= 3.5010 AND StudentID > 2896.1687 AND Age <= 16.6329 THEN class (0/1)
+  IF GPA > 3.0159 AND GPA > 3.5010 AND StudentID > 3240.4172 THEN class (1/1)
+
+Class 3.0:
+  IF GPA <= 2.4597 AND GPA <= 1.9975 AND StudentID > 3368.7654 AND Volunteering <= 0.3049 THEN class (1/1)
+  IF GPA <= 2.4597 AND GPA > 1.9975 AND StudentID <= 3201.8175 THEN class (1/1)
+  IF GPA > 2.4597 AND StudentID > 3153.3567 AND StudyTimeWeekly <= 3.2939 THEN class (1/1)
+
+Class 4.0:
+  IF GPA <= 1.9975 AND StudentID <= 3209.0000 AND StudentID <= 3160.5962 THEN class (1/1)
+  IF GPA <= 1.9975 AND StudentID <= 3209.0000 AND StudentID > 3160.5962 AND StudyTimeWeekly > 13.3048 THEN class (1/1)

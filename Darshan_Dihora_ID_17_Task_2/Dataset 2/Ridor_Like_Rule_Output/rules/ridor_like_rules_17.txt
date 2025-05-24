@@ -1,0 +1,2 @@
+Class 20:
+  IF IAT <= 0.4948 AND IAT > 0.4927 THEN class (1/1)

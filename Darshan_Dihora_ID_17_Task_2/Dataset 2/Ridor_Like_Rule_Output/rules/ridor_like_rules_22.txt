@@ -1,0 +1,3 @@
+Class 25:
+  IF IAT <= 0.4992 AND Header_Length > 0.1451 AND Protocol Type > 0.3469 AND Rate > 0.0000 THEN class (1/1)
+  IF IAT > 0.4992 AND UDP > 0.5000 AND Min > 0.0534 THEN class (1/1)

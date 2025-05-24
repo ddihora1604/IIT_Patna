@@ -1,0 +1,4 @@
+Class 10:
+  IF syn_flag_number <= 0.5000 AND syn_count > 0.0669 AND syn_count <= 0.0688 THEN class (0/1)
+  IF syn_flag_number > 0.5000 AND syn_count <= 0.1406 AND IAT > 0.4953 AND IAT <= 0.4959 THEN class (1/1)
+  IF syn_flag_number > 0.5000 AND syn_count > 0.1406 AND Magnitue > 0.0424 AND Header_Length <= 0.0000 THEN class (1/1)

@@ -1,0 +1,3 @@
+Class 14:
+  IF Rate <= 0.0003 AND Srate > 0.0001 AND Tot size <= 0.0024 AND Header_Length > 0.0008 THEN class (0/1)
+  IF Rate > 0.0003 AND IAT > 0.4956 AND Min <= 0.0035 AND Protocol Type > 0.2785 THEN class (1/1)

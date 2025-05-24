@@ -1,0 +1,5 @@
+Class 1.0:
+  IF GPA <= 3.0159 AND StudentID > 3213.5000 AND Volunteering <= 0.0455 AND StudyTimeWeekly > 5.5530 THEN class (0/1)
+  IF GPA > 3.0159 AND GPA <= 3.5010 AND StudentID <= 2896.1687 THEN class (1/1)
+  IF GPA > 3.0159 AND GPA <= 3.5010 AND StudentID > 2896.1687 AND Age <= 16.6329 THEN class (0/1)
+  IF GPA > 3.0159 AND GPA > 3.5010 AND StudentID > 3240.4172 THEN class (1/1)

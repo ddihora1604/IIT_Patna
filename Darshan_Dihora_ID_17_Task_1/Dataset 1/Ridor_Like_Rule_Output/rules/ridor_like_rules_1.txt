@@ -1,0 +1,4 @@
+Class 1.0:
+  IF GPA <= 3.0095 AND StudentID > 3213.5000 AND StudentID <= 3236.0000 THEN class (1/1)
+  IF GPA > 3.0095 AND GPA <= 3.5010 AND StudentID <= 3048.5000 THEN class (1/1)
+  IF GPA > 3.0095 AND GPA <= 3.5010 AND StudentID > 3048.5000 AND StudentID > 3292.5000 THEN class (1/1)

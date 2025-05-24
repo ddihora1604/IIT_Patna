@@ -1,0 +1,35 @@
+Fold,Rules
+1,"Class 0.0:
+  IF GPA <= 3.4138 AND StudentID > 3276.0000 AND GPA > 2.6777 THEN class (1/1)
+  IF GPA > 3.4138 AND StudentID <= 3164.0000 THEN class (1/1)
+
+Class 1.0:
+  IF GPA > 3.0052 AND GPA <= 3.4138 AND StudentID <= 2990.5000 THEN class (1/1)
+
+Class 2.0:
+  IF GPA <= 2.4951 AND StudentID > 3225.5000 AND ParentalSupport > 1.5000 AND StudyTimeWeekly <= 11.7408 THEN class (1/1)
+  IF GPA > 2.4951 AND GPA <= 3.0052 AND StudentID <= 3186.0000 THEN class (1/1)
+
+Class 3.0:
+  IF GPA <= 1.9981 AND StudentID > 3197.5000 AND ParentalSupport <= 0.5000 THEN class (1/1)
+  IF GPA > 1.9981 AND GPA <= 2.4951 AND StudentID <= 3240.5000 THEN class (1/1)
+  IF GPA > 1.9981 AND GPA > 2.4951 AND StudentID > 3160.5000 AND StudentID <= 3254.0000 THEN class (0/1)
+"
+2,"Class 0.0:
+  IF GPA <= 3.5010 AND StudentID > 3362.0000 AND Ethnicity <= 1.0000 THEN class (1/1)
+  IF GPA > 3.5010 AND ParentalSupport > 2.5000 THEN class (1/1)
+
+Class 1.0:
+  IF GPA <= 3.0095 AND StudentID > 3213.5000 AND StudentID <= 3236.0000 THEN class (1/1)
+  IF GPA > 3.0095 AND GPA <= 3.5010 AND StudentID <= 3048.5000 THEN class (1/1)
+  IF GPA > 3.0095 AND GPA <= 3.5010 AND StudentID > 3048.5000 AND StudentID > 3292.5000 THEN class (1/1)
+
+Class 2.0:
+  IF GPA <= 2.4790 AND StudentID > 3236.0000 AND ParentalEducation <= 0.5000 THEN class (1/1)
+  IF GPA > 2.4790 AND GPA <= 2.9912 AND StudentID <= 3155.5000 THEN class (1/1)
+  IF GPA > 2.4790 AND GPA > 2.9912 AND StudentID > 3153.0000 AND StudentID <= 3224.0000 THEN class (0/1)
+
+Class 3.0:
+  IF GPA > 2.0027 AND GPA <= 2.4790 AND StudentID <= 3206.5000 THEN class (1/1)
+  IF GPA > 2.0027 AND GPA > 2.4790 AND StudentID > 3187.5000 AND StudentID <= 3246.5000 THEN class (0/1)
+"

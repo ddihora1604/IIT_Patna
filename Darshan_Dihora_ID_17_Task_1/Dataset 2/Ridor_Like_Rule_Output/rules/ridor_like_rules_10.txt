@@ -1,0 +1,3 @@
+Class 13:
+  IF IAT <= 0.4956 AND IAT > 0.4953 AND syn_count <= 0.0632 AND Protocol Type <= 0.1768 THEN class (1/1)
+  IF IAT > 0.4956 AND IAT > 0.5943 AND IAT <= 0.5948 THEN class (1/1)

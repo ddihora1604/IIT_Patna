@@ -1,0 +1,4 @@
+Class 3.0:
+  IF GPA <= 2.4597 AND GPA <= 1.9975 AND StudentID > 3368.7654 AND Volunteering <= 0.3049 THEN class (1/1)
+  IF GPA <= 2.4597 AND GPA > 1.9975 AND StudentID <= 3201.8175 THEN class (1/1)
+  IF GPA > 2.4597 AND StudentID > 3153.3567 AND StudyTimeWeekly <= 3.2939 THEN class (1/1)

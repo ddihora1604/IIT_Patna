@@ -1,0 +1,5 @@
+Class 1:
+  IF rst_count <= 0.0050 AND IAT <= 0.9931 AND Number <= 0.4642 AND Rate > 0.0006 THEN class (1/1)
+  IF rst_count <= 0.0050 AND IAT > 0.9931 AND IAT <= 0.9936 THEN class (1/1)
+  IF rst_count > 0.0050 AND IAT <= 0.9936 AND IAT <= 0.9932 AND Number <= 0.5200 THEN class (0/1)
+  IF rst_count > 0.0050 AND IAT <= 0.9936 AND IAT > 0.9932 THEN class (1/1)

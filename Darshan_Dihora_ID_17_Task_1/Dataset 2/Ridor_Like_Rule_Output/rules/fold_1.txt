@@ -1,0 +1,123 @@
+Class 1:
+  IF urg_count <= 0.0025 AND IAT > 0.9931 AND IAT <= 0.9936 THEN class (1/1)
+  IF urg_count > 0.0025 AND IAT <= 0.9936 AND IAT <= 0.9931 AND Number <= 0.5200 THEN class (0/1)
+  IF urg_count > 0.0025 AND IAT <= 0.9936 AND IAT > 0.9931 THEN class (1/1)
+
+Class 4:
+  IF Tot sum <= 0.1328 AND Covariance > 0.0038 AND Header_Length <= 0.0004 AND IAT > 0.4970 THEN class (0/1)
+  IF Tot sum > 0.1328 AND Header_Length <= 0.0001 AND ICMP <= 0.5000 AND urg_count <= 0.0000 THEN class (1/1)
+
+Class 5:
+  IF syn_count <= 0.4169 AND rst_count > 0.0004 AND Header_Length <= 0.0001 AND syn_count > 0.1856 THEN class (0/1)
+  IF syn_count > 0.4169 AND ack_count > 0.0200 AND Header_Length > 0.0005 THEN class (1/1)
+
+Class 7:
+  IF Tot sum <= 0.1194 AND Tot sum > 0.1110 AND Header_Length <= 0.0000 THEN class (1/1)
+  IF Tot sum > 0.1194 AND Protocol Type <= 0.0948 THEN class (1/1)
+
+Class 8:
+  IF psh_flag_number <= 0.5000 AND urg_count > 0.0003 AND rst_count <= 0.0001 THEN class (1/1)
+  IF psh_flag_number > 0.5000 AND urg_count <= 0.0012 AND Min <= 0.0075 THEN class (1/1)
+
+Class 9:
+  IF fin_flag_number > 0.5000 THEN class (1/1)
+
+Class 10:
+  IF syn_flag_number <= 0.5000 AND syn_count > 0.1225 AND syn_count <= 0.1244 THEN class (1/1)
+  IF syn_flag_number > 0.5000 AND IAT <= 0.4959 AND IAT > 0.4953 THEN class (1/1)
+  IF syn_flag_number > 0.5000 AND IAT > 0.4959 AND IAT > 0.4976 AND IAT <= 0.5958 THEN class (0/1)
+
+Class 11:
+  IF urg_count > 0.0005 AND syn_count <= 0.4218 AND HTTP > 0.5000 AND Std <= 0.0078 THEN class (0/1)
+  IF urg_count > 0.0005 AND syn_count > 0.4218 AND IAT > 0.4972 THEN class (1/1)
+
+Class 12:
+  IF syn_count <= 0.1344 AND IAT > 0.4973 AND syn_flag_number > 0.5000 AND IAT <= 0.4976 THEN class (1/1)
+  IF syn_count > 0.1344 AND IAT > 0.4972 AND rst_count <= 0.0001 AND IAT <= 0.4976 THEN class (1/1)
+
+Class 13:
+  IF IAT <= 0.4956 AND IAT > 0.4953 AND syn_count <= 0.1050 AND Protocol Type <= 0.2153 THEN class (1/1)
+  IF IAT <= 0.4956 AND IAT > 0.4953 AND syn_count > 0.1050 AND Std > 0.0298 THEN class (0/1)
+
+Class 14:
+  IF Rate <= 0.0003 AND Rate > 0.0001 AND Min <= 0.0030 AND Tot size > 0.0008 THEN class (0/1)
+  IF Rate > 0.0003 AND IAT > 0.4956 AND IAT <= 0.4958 AND TCP <= 0.5000 THEN class (1/1)
+  IF Rate > 0.0003 AND IAT > 0.4956 AND IAT > 0.4958 AND Magnitue <= 0.0118 THEN class (0/1)
+
+Class 15:
+  IF Tot sum <= 0.1331 AND Tot sum > 0.1198 AND Duration <= 0.2432 AND Header_Length <= 0.0707 THEN class (1/1)
+  IF Tot sum > 0.1331 AND Protocol Type > 0.3163 AND IAT <= 0.7455 THEN class (1/1)
+
+Class 16:
+  IF IAT <= 0.9954 AND IAT <= 0.9946 AND IAT <= 0.1694 AND flow_duration > 0.0064 THEN class (0/1)
+  IF IAT <= 0.9954 AND IAT > 0.9946 AND Magnitue <= 0.1807 AND Duration > 0.6549 THEN class (1/1)
+  IF IAT <= 0.9954 AND IAT > 0.9946 AND Magnitue > 0.1807 THEN class (1/1)
+  IF IAT > 0.9954 AND IAT <= 0.9976 THEN class (1/1)
+
+Class 17:
+
+
+Class 18:
+  IF fin_count <= 0.0143 AND rst_count > 0.0001 AND fin_count > 0.0078 AND Min > 0.0048 THEN class (0/1)
+  IF fin_count > 0.0143 AND Min > 0.0038 AND AVG > 0.0025 THEN class (1/1)
+
+Class 19:
+  IF IAT <= 0.4950 AND IAT > 0.4948 THEN class (1/1)
+
+Class 20:
+  IF IAT <= 0.4948 AND IAT > 0.4832 THEN class (1/1)
+
+Class 21:
+  IF UDP <= 0.5000 AND Duration <= 0.9847 AND Duration > 0.5532 AND TCP <= 0.5000 THEN class (0/1)
+  IF UDP <= 0.5000 AND Duration > 0.9847 THEN class (0/1)
+  IF UDP > 0.5000 AND IAT <= 0.4955 AND Number > 0.6448 AND IAT <= 0.4950 THEN class (0/1)
+  IF UDP > 0.5000 AND IAT <= 0.4955 AND Number > 0.6448 AND IAT > 0.4950 THEN class (1/1)
+  IF UDP > 0.5000 AND IAT > 0.4955 AND Header_Length <= 0.0000 AND Tot sum > 0.0258 THEN class (1/1)
+
+Class 22:
+  IF IAT <= 0.9936 AND IAT <= 0.1694 AND Srate > 0.0000 AND HTTPS > 0.5000 THEN class (0/1)
+  IF IAT > 0.9936 AND IAT <= 0.9946 AND flow_duration <= 0.0038 THEN class (1/1)
+  IF IAT > 0.9936 AND IAT <= 0.9946 AND flow_duration > 0.0038 THEN class (0/1)
+
+Class 23:
+  IF Protocol Type <= 0.8794 AND Protocol Type > 0.6688 AND IAT > 0.4991 THEN class (1/1)
+  IF Protocol Type > 0.8794 AND Max <= 0.0241 AND IAT > 0.4991 AND Protocol Type <= 0.9811 THEN class (1/1)
+  IF Protocol Type > 0.8794 AND Max > 0.0241 AND Max <= 0.0253 THEN class (1/1)
+  IF Protocol Type > 0.8794 AND Max > 0.0241 AND Max > 0.0253 AND IAT > 0.4991 THEN class (1/1)
+
+Class 24:
+  IF Protocol Type <= 0.4672 AND IAT > 0.4983 AND IAT <= 0.4992 THEN class (1/1)
+  IF Protocol Type > 0.4672 AND Max <= 0.0241 AND IAT <= 0.4991 THEN class (1/1)
+  IF Protocol Type > 0.4672 AND Max <= 0.0241 AND IAT > 0.4991 AND Magnitue > 0.2363 THEN class (1/1)
+  IF Protocol Type > 0.4672 AND Max > 0.0241 AND IAT <= 0.4991 AND Variance > 0.0876 THEN class (1/1)
+
+Class 25:
+  IF IAT <= 0.4993 AND IAT > 0.4992 AND Max <= 0.0236 THEN class (1/1)
+  IF IAT > 0.4993 AND IAT <= 0.5469 THEN class (1/1)
+  IF IAT > 0.4993 AND IAT > 0.5469 AND Rate > 0.0014 AND Magnitue > 0.1768 THEN class (1/1)
+
+Class 26:
+  IF IAT <= 0.9946 AND Tot sum <= 0.0047 AND Min <= 0.0036 AND Duration > 0.5208 THEN class (0/1)
+  IF IAT <= 0.9946 AND Tot sum <= 0.0047 AND Min > 0.0036 AND rst_count > 0.0000 THEN class (0/1)
+  IF IAT > 0.9946 AND Tot sum <= 0.0319 AND Protocol Type <= 0.2436 AND Min <= 0.0042 THEN class (1/1)
+  IF IAT > 0.9946 AND Tot sum > 0.0319 AND Header_Length <= 0.0003 THEN class (1/1)
+
+Class 27:
+  IF Tot sum <= 0.0063 AND Tot size > 0.0075 AND Tot sum > 0.0058 AND Max <= 0.0038 THEN class (1/1)
+  IF Tot sum > 0.0063 AND IAT > 0.9927 AND IAT <= 0.9931 AND Tot size > 0.0080 THEN class (0/1)
+
+Class 29:
+  IF Tot sum <= 0.0041 AND syn_count > 0.1062 AND Duration > 0.3774 THEN class (1/1)
+  IF Tot sum > 0.0041 AND Duration <= 0.2354 AND ack_count <= 0.0875 AND flow_duration > 0.0044 THEN class (1/1)
+  IF Tot sum > 0.0041 AND Duration <= 0.2354 AND ack_count > 0.0875 AND Protocol Type <= 0.1500 THEN class (1/1)
+  IF Tot sum > 0.0041 AND Duration > 0.2354 AND flow_duration > 0.0017 AND flow_duration <= 0.0019 THEN class (0/1)
+
+Class 31:
+  IF IAT > 0.9999 THEN class (0/1)
+
+Class 32:
+  IF flow_duration <= 0.0025 AND flow_duration > 0.0015 AND ack_count > 0.0225 AND Covariance > 0.0012 THEN class (1/1)
+  IF flow_duration > 0.0025 AND ack_count > 0.0287 AND Variance <= 0.9750 AND IAT > 0.4958 THEN class (1/1)
+
+Class 33:
+

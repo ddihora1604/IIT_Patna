@@ -1,0 +1,22 @@
+Class 0.0:
+  IF GPA <= 3.3988 AND StudentID <= 3105.6779 AND StudentID > 3067.3136 AND Volunteering > 0.2954 THEN class (1/1)
+  IF GPA <= 3.3988 AND StudentID > 3105.6779 AND StudyTimeWeekly <= 13.0040 AND GPA > 2.8418 THEN class (0/1)
+  IF GPA <= 3.3988 AND StudentID > 3105.6779 AND StudyTimeWeekly > 13.0040 AND Sports > 0.2280 THEN class (0/1)
+  IF GPA > 3.3988 AND Ethnicity <= 0.2554 AND Extracurricular <= 0.9965 THEN class (1/1)
+  IF GPA > 3.3988 AND Ethnicity > 0.2554 THEN class (1/1)
+
+Class 1.0:
+  IF GPA <= 3.0141 AND Absences > 24.3398 AND StudentID > 3139.1143 AND StudyTimeWeekly > 13.1246 THEN class (1/1)
+  IF GPA > 3.0141 AND GPA <= 3.3744 AND StudentID <= 3110.7635 AND Ethnicity <= 2.3448 THEN class (1/1)
+  IF GPA > 3.0141 AND GPA <= 3.3744 AND StudentID <= 3110.7635 AND Ethnicity > 2.3448 THEN class (0/1)
+
+Class 3.0:
+  IF GPA <= 2.4870 AND GPA <= 1.9981 AND ParentalSupport <= 0.8788 AND StudentID > 3106.8936 THEN class (1/1)
+  IF GPA <= 2.4870 AND GPA > 1.9981 AND StudentID <= 3051.8136 THEN class (1/1)
+  IF GPA <= 2.4870 AND GPA > 1.9981 AND StudentID > 3051.8136 AND Sports <= 0.0021 THEN class (0/1)
+  IF GPA > 2.4870 AND StudentID > 3174.1006 AND Music <= 0.0100 AND Ethnicity > 1.6700 THEN class (1/1)
+  IF GPA > 2.4870 AND StudentID > 3174.1006 AND Music > 0.0100 THEN class (1/1)
+
+Class 4.0:
+  IF GPA <= 1.9981 AND StudentID <= 3115.4282 THEN class (1/1)
+  IF GPA <= 1.9981 AND StudentID > 3115.4282 AND StudyTimeWeekly <= 7.1447 AND StudyTimeWeekly <= 4.6433 THEN class (1/1)

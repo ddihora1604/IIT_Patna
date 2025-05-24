@@ -1,0 +1,2 @@
+Class 5:
+  IF Variance > 0.5356 AND HTTP > 0.5000 AND Tot size <= 0.0406 AND Header_Length <= 0.0008 THEN class (0/1)

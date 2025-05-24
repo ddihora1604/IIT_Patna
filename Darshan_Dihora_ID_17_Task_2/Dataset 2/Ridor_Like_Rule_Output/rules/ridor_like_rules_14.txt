@@ -1,0 +1,2 @@
+Class 17:
+  IF SSH > 0.5000 THEN class (1/1)

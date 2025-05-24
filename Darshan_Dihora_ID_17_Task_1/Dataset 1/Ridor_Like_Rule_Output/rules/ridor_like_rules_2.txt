@@ -1,0 +1,4 @@
+Class 2.0:
+  IF GPA <= 2.4790 AND StudentID > 3236.0000 AND ParentalEducation <= 0.5000 THEN class (1/1)
+  IF GPA > 2.4790 AND GPA <= 2.9912 AND StudentID <= 3155.5000 THEN class (1/1)
+  IF GPA > 2.4790 AND GPA > 2.9912 AND StudentID > 3153.0000 AND StudentID <= 3224.0000 THEN class (0/1)

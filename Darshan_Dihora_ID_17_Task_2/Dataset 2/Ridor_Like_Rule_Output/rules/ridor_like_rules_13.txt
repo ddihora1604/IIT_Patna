@@ -1,0 +1,5 @@
+Class 16:
+  IF IAT <= 0.9946 AND Number <= 0.4642 AND Protocol Type > 0.3500 AND AVG <= 0.0145 THEN class (0/1)
+  IF IAT > 0.9946 AND Header_Length <= 0.0035 AND IAT > 0.9954 AND IAT <= 0.9977 THEN class (1/1)
+  IF IAT > 0.9946 AND Header_Length > 0.0035 AND Header_Length <= 0.0181 AND urg_count <= 0.0660 THEN class (0/1)
+  IF IAT > 0.9946 AND Header_Length > 0.0035 AND Header_Length > 0.0181 THEN class (1/1)

@@ -1,0 +1,2 @@
+Class 12:
+  IF IAT > 0.4973 AND syn_flag_number > 0.5000 AND IAT <= 0.4976 THEN class (1/1)

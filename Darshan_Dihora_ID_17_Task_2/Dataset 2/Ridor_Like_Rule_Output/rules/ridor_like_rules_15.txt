@@ -1,0 +1,4 @@
+Class 18:
+  IF fin_count <= 0.0260 AND fin_count <= 0.0167 AND syn_count > 0.4694 AND ack_count > 0.0025 THEN class (1/1)
+  IF fin_count <= 0.0260 AND fin_count > 0.0167 AND Min > 0.0042 AND syn_count > 0.2150 THEN class (1/1)
+  IF fin_count > 0.0260 AND fin_count <= 0.0598 THEN class (1/1)

@@ -1,0 +1,4 @@
+Class 0.0:
+  IF GPA <= 3.5010 AND StudentID <= 3136.1942 AND ParentalSupport > 3.3096 AND ParentalSupport <= 3.3515 THEN class (1/1)
+  IF GPA <= 3.5010 AND StudentID > 3136.1942 AND Age > 16.7309 AND Ethnicity <= 0.9873 THEN class (0/1)
+  IF GPA > 3.5010 AND StudentID <= 3240.4172 THEN class (1/1)

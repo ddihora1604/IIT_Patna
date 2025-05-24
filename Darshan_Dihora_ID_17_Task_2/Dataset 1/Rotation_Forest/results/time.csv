@@ -1,0 +1,3 @@
+Classifier,Fold,Training Time (s),Testing Time (s),Total Time (s)
+RotationForest,1,0.3109745979309082,0.0,0.3109745979309082
+RotationForest,2,0.0847012996673584,0.0,0.0847012996673584

@@ -1,0 +1,2 @@
+Class 11:
+  IF Covariance > 0.0116 AND Radius > 0.0671 AND Max <= 0.0962 AND syn_count > 0.2106 THEN class (0/1)

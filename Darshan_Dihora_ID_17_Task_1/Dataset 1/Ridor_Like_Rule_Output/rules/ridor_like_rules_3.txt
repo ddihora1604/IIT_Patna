@@ -1,0 +1,3 @@
+Class 3.0:
+  IF GPA > 2.0027 AND GPA <= 2.4790 AND StudentID <= 3206.5000 THEN class (1/1)
+  IF GPA > 2.0027 AND GPA > 2.4790 AND StudentID > 3187.5000 AND StudentID <= 3246.5000 THEN class (0/1)
